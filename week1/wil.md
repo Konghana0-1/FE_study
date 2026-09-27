@@ -2,7 +2,7 @@
 ## HTML
 HTML: Hyper Text Markup Language
 HTML의 여러가지 태그들을 검색해보고 그 의미에 대해 더 파악해보았다.
-예를들어 <aside>, <footer> 같은 태그들의 쓰임도 알게되었다.
+예를들어 '<aside>', '<footer>' 같은 태그들의 쓰임도 알게되었다.
 이러한 semantic 태그들이 직관적이고 쉽다는 느낌도 받았다. 
 하지만 프론트엔드를 잘하기 위해서는 HTML의 모든 태그를 아는 것보다 JS를 더 잘 다뤄야 한다고 생각이 들었다.
 ## CSS
