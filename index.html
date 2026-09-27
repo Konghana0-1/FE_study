@@ -1,0 +1,47 @@
+<!-- 아무거나 만들어보기 -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FE_study_week1</title>
+
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            button {
+                width: 60px;
+                height: 50px;
+                margin-left: 10px;
+
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 18px;
+            }
+
+            div {
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+       </style>
+    </head>
+
+    <body>
+        <div id = "b">Hi<button onclick = "closeBox()">닫기</button></div>
+
+        <button id = "open_b" onclick = "openBox()" style="display: none;">열기</button>
+
+        <script>
+            function closeBox(){
+                document.getElementById('b').style.display = 'none';
+                document.getElementById('open_b').style.display = 'block';
+            }
+
+            function openBox(){
+                document.getElementById('b').style.display = 'block';
+                document.getElementById('open_b').style.display = 'none';
+            }
+        </script>
+    </body>
+</html>
